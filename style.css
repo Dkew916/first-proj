@@ -1,0 +1,70 @@
+.main {
+    box-shadow: 5px 10px 20px 10px #888888;
+    background-color: aliceblue;
+}
+
+.banner-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 300px 0px;
+}
+.banner-h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+.bg img {
+    height: 113vh;
+    width: -webkit-fill-available;
+}
+.banner-button button{
+    border: 1px #ccc solid;
+    border-radius: 50px;
+    color: #333;
+    background-color: #fff;
+    padding: 12px 35px;
+}
+.banner-button button:hover{
+ background-color: #ccc;
+ transition-duration: 1.5s;
+}
+.img h2 {
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+.img {
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+.img-2 img {
+    width: 100%;
+    box-shadow: 5px 10px 20px 10px #888888;
+}
+.img-text {
+    text-align: center;
+    background-color: #ccc;
+    padding: 20px 0px ;
+    /* box-shadow: 5px 10px 20px 10px #888888; */
+}
+.img-text h2 {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.img-text p {
+font-size: 16px;
+}
+.text {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #ccc;
+    /* box-shadow: 5px 10px 20px 10px #888888; */
+  
+}
